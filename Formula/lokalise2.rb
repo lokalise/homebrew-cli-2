@@ -3,7 +3,7 @@ class Lokalise2 < Formula
   homepage "https://docs.lokalise.com/cli2"
 
   version "2.00"
-  sha256 "e4581ce45bf09e90a8422b6d87a01594c6fb919a845926af2575d2b57421841f"
+  sha256 "b3354c180c9321a66cb97ec6cb7da10c6faf1fa0fde76a8b76c62ddd4e087d95"
 
   url "https://s3-eu-west-1.amazonaws.com/lokalise-assets/cli2/lokalise2-2.00-darwin-amd64.tgz"
 
