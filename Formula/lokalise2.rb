@@ -2,24 +2,24 @@
 class Lokalise2 < Formula
   desc "Lokalise CLI v2"
   homepage "https://docs.lokalise.com/cli2"
-  version "2.2.2"
+  version "2.2.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v2.2.2/lokalise2_darwin_x86_64.tar.gz"
-    sha256 "8f261841968fbd41d3848e819691439daac681a3c2f9a5013b4a828f1e244edb"
+    url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v2.2.3/lokalise2_darwin_x86_64.tar.gz"
+    sha256 "f90dbaf5f26e731c0860e8937878a8ca98b11bebd6de0dabc9dae2cc50e333c8"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v2.2.2/lokalise2_linux_x86_64.tar.gz"
-      sha256 "fba362a32e998f4b507522b4c5ef220539d3af37f459028055b04559743a1ece"
+      url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v2.2.3/lokalise2_linux_x86_64.tar.gz"
+      sha256 "2f572dd6fdd809339df0bb0c50536d5730983d24b95253615f4383899a2df972"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v2.2.2/lokalise2_linux_arm64.tar.gz"
-        sha256 "acea8f594afdd7e368b86b7cde072841ecec18de96ced1a87ca36f84a400da0d"
+        url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v2.2.3/lokalise2_linux_arm64.tar.gz"
+        sha256 "8e7f3525d01d78970e3198fa024cbcf6f26035498816b272932b3e029088a2ea"
       else
-        url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v2.2.2/lokalise2_linux_armv6.tar.gz"
-        sha256 "eee1f81fbadd00188956fa60e206fe6251589ee1b2fd32881d383b28e88c84a6"
+        url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v2.2.3/lokalise2_linux_armv6.tar.gz"
+        sha256 "c44b597757a0776943cc5a65ccaddcbc534bfb972910808d62a0786e34cec955"
       end
     end
   end
