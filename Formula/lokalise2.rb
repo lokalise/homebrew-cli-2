@@ -31,6 +31,6 @@ class Lokalise2 < Formula
   end
 
   def install
-    bin.install "lokalise-cli-2-go"
+    bin.install "lokalise2"
   end
 end
