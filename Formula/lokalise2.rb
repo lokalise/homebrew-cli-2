@@ -6,7 +6,6 @@ class Lokalise2 < Formula
   desc "Lokalise CLI v2"
   homepage "https://docs.lokalise.com/cli2"
   version "2.6.8"
-  bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
