@@ -10,7 +10,7 @@ class Lokalise2 < Formula
   on_macos do
     on_intel do
       url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.3/lokalise2_darwin_x86_64.tar.gz"
-      sha256 "938c057cdabdad14a81e1f5cde666e54545e8b11a70bd97b14a978f3a36076b3"
+      sha256 "7b74d8f130c16b88dfe3185813ad2cd85aba2fa0ff05a60aff811045254a2692"
 
       def install
         bin.install "lokalise2"
@@ -18,7 +18,7 @@ class Lokalise2 < Formula
     end
     on_arm do
       url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.3/lokalise2_darwin_arm64.tar.gz"
-      sha256 "17ef0c81b5c03a6544cbd238bd9c3f1f82657f62acf968055b9555d49825e24f"
+      sha256 "569ba6c5904733396e413d4029489b08db5ada2618ac138b9bf03ec450f98971"
 
       def install
         bin.install "lokalise2"
@@ -30,7 +30,7 @@ class Lokalise2 < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.3/lokalise2_linux_x86_64.tar.gz"
-        sha256 "029af98104f6a9f673323392bbb089fbde2d341351e5ac6e31a7f6f2c5d0c51c"
+        sha256 "a67b987236aaa4f01d66a61762817f27d15b2b15979d0f7e586cf944d238d5af"
 
         def install
           bin.install "lokalise2"
@@ -40,7 +40,7 @@ class Lokalise2 < Formula
     on_arm do
       if !Hardware::CPU.is_64_bit?
         url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.3/lokalise2_linux_armv6.tar.gz"
-        sha256 "075b84ac2d424cbe7606488e95ca5878a28565a0b83adc7dab424b3ce61f16d1"
+        sha256 "9ed2c16e497f7379430c9e7be5d0a0b2296f3d52c4aee394dcc07fb102c79fc4"
 
         def install
           bin.install "lokalise2"
@@ -50,7 +50,7 @@ class Lokalise2 < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.3/lokalise2_linux_arm64.tar.gz"
-        sha256 "082a9fe285768c738c745bb77403a30126036f72b0f3c5c8433a481aaebc1259"
+        sha256 "8ec09a56fcb2bde919a9825c9e10e1c4ecf18fdd860f48eef18111332527d9fb"
 
         def install
           bin.install "lokalise2"
