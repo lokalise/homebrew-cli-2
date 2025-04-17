@@ -5,20 +5,20 @@
 class Lokalise2 < Formula
   desc "Lokalise CLI v2"
   homepage "https://github.com/lokalise/lokalise-cli-2-go"
-  version "3.1.2"
+  version "3.1.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.2/lokalise2_darwin_x86_64.tar.gz"
-      sha256 "a4b15f9e97a6137e89ec12c1ac6b039cd2809632f77cd2d44184da9e06f96501"
+      url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.3/lokalise2_darwin_x86_64.tar.gz"
+      sha256 "938c057cdabdad14a81e1f5cde666e54545e8b11a70bd97b14a978f3a36076b3"
 
       def install
         bin.install "lokalise2"
       end
     end
     on_arm do
-      url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.2/lokalise2_darwin_arm64.tar.gz"
-      sha256 "fde3771341abc41ded764fcc4930b64e3e77dd057b991647348a31a0b711f187"
+      url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.3/lokalise2_darwin_arm64.tar.gz"
+      sha256 "17ef0c81b5c03a6544cbd238bd9c3f1f82657f62acf968055b9555d49825e24f"
 
       def install
         bin.install "lokalise2"
@@ -29,8 +29,8 @@ class Lokalise2 < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.2/lokalise2_linux_x86_64.tar.gz"
-        sha256 "760cea3f4f8f653d8329b0e294f7d691d423d6e50e62ba0af6ad16050d1db990"
+        url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.3/lokalise2_linux_x86_64.tar.gz"
+        sha256 "029af98104f6a9f673323392bbb089fbde2d341351e5ac6e31a7f6f2c5d0c51c"
 
         def install
           bin.install "lokalise2"
@@ -39,8 +39,8 @@ class Lokalise2 < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.2/lokalise2_linux_armv6.tar.gz"
-        sha256 "5356a5587b8c14082b04b9046dbcf0eaa2080670e2ed8c8642b00090b852dd2b"
+        url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.3/lokalise2_linux_armv6.tar.gz"
+        sha256 "075b84ac2d424cbe7606488e95ca5878a28565a0b83adc7dab424b3ce61f16d1"
 
         def install
           bin.install "lokalise2"
@@ -49,8 +49,8 @@ class Lokalise2 < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.2/lokalise2_linux_arm64.tar.gz"
-        sha256 "ce73124b49a4fdad722da4ec5f00f778d1bbb0ad571f5f7211bc7ce5512d8703"
+        url "https://github.com/lokalise/lokalise-cli-2-go/releases/download/v3.1.3/lokalise2_linux_arm64.tar.gz"
+        sha256 "082a9fe285768c738c745bb77403a30126036f72b0f3c5c8433a481aaebc1259"
 
         def install
           bin.install "lokalise2"
